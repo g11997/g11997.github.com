@@ -1,0 +1,37 @@
+body{
+    background: #ffc;
+    margin-top: 0px;
+}
+form{
+    width:80%;
+    height: 500px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #ddd;
+}
+h1{
+    width: 90%;
+    margin:0 auto;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+#c1{
+    text-align: center;
+    margin-top: 10px;
+}
+#c2{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#c3{
+    text-align: center;
+    margin-top: 10px;
+}
+#c4{
+    text-align: center;
+    margin-top: 10px;
+}
+
