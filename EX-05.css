@@ -1,7 +1,6 @@
 .Ttable{
     width: 700px;
     height: 325px;
-    border: thin solid black;
     display: flex;
     flex-wrap: wrap;
     align-content: space-around;
@@ -17,39 +16,287 @@
 .Ttable-title-top{
     flex:1;
     border-bottom: 5px solid #1b88c4;
+    display: flex;
 }
 .Ttable-title-top-left{
     width: 78px;
     height: 25px;
     border-radius: 5px 5px 0px 0px;
     background: linear-gradient(#2e94cd, #1b88c4);
+    text-align: center;
 }
 .Ttable-title-middle{
     flex: 2;
-    border: thin solid #cbcbcb;
+    border-left: thin solid #cbcbcb;
+    border-right: thin solid #cbcbcb;
     background: linear-gradient(#ffffff, #f2f3f3);
+    line-height: 20px;
 }
 .Ttable-title-sub{
     flex: 1;
-    border: thin solid black;
+    border-top: none;
+    border: thin solid #cbcbcb;
+    background-color: #fffbde;
 }
 .Ttable-content{
     width: 680px;
     height: 210px;
-    border: thin solid black;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 }
 .Ttable-content-title{
-    flex: 1;
-    border: thin solid black;
+    flex: 15;
+    border: 1px solid hsla(0,0%,100%,.5);
+    background: #cedce8;
+    background-clip: padding-box;
+    display: flex;
+}
+.Ttable-content-title-1{
+    width: 403px;
+    height: 15px;
+    border-right: 1px solid hsla(0,0%,100%,1);
+    background-clip: padding-box;
+    text-align: center;
+    line-height: 10px;
+}
+.Ttable-content-title-2{
+    width: 65px;
+    height: 15px;
+    border-right: 1px solid hsla(0,0%,100%,1);
+    background-clip: padding-box;
+    text-align: center;
+    line-height: 10px;
+}
+.Ttable-content-title-3{
+    width: 70px;
+    height: 15px;
+    border-right: 1px solid hsla(0,0%,100%,1);
+    background-clip: padding-box;
+    text-align: center;
+    line-height: 10px;
+}
+.Ttable-content-title-4{
+    width: 80px;
+    height: 15px;
+    border-right: 1px solid hsla(0,0%,100%,1);
+    background-clip: padding-box;
+    text-align: center;
+    line-height: 10px;
+}
+.Ttable-content-title-5{
+    height: 15px;
+    width: 60px;
+    text-align: center;
+    line-height: 10px;
 }
 .Ttable-content-direction{
-    flex: 4;
-    border: thin solid black;
+    flex: 38;
+    background-color: #f2f2f2;
+    border: 1px solid #cbcbcb;
+    border-top: none;
+    display: flex;
+
 }
+.Ttable-content-direction-icon{
+    height: 28px;
+    width: 10px;
+    margin-left: 20px;
+    color:  #2a9ddc;
+}
+.Ttable-content-direction-place{
+    height: 25px;
+    width: 255px;
+    color: #2a9ddc;
+    margin-top: 8px;
+    margin-left: 2px;
+    text-align: center;
+}
+.Ttable-content-direction-place1{
+    height: 25px;
+    width: 100px;
+    color: #2a9ddc;
+    margin-top: 8px;
+    margin-left: 2px;
+    text-align: left;
+    display: flex;
+}
+.Ttable-content-direction-time{
+    height: 25px;
+    width: 95px;
+    margin-top: 10px;
+    text-align: center;
+    line-height: -20px;
+}
+.Ttable-content-direction-place2{
+    height: 25px;
+    width: 255px;
+    color: #2a9ddc;
+    margin-top: 8px;
+    margin-left: -10px;
+    text-align: center;
+}
+.Ttable-content-direction-number{
+    height: 20px;
+    width: 65px;
+    margin-top: 8px;
+    margin-left:145px;
+    text-align: center;
+}
+.Ttable-content-direction-number1{
+    height: 38px;
+    width: 65px;
+    margin-left:205px;
+    text-align: center;
+}
+.Ttable-content-direction-number2{
+    height: 20px;
+    width: 65px;
+    margin-top: 8px;
+    margin-left:155px;
+    text-align: center;
+}
+.Ttable-content-direction-hint{
+    height: 20px;
+    width: 200px;
+    margin-top: 8px;
+    margin-left: 0px;
+    text-align: right;
+}
+
 .Ttable-content-time{
-    flex: 4;
-    border: thin solid black;
+    flex: 38;
+    border-bottom: 1px solid #cbcbcb;
+    display: flex;
+}
+.Ttable-content-time-1{
+    width: 102px;
+    height: 38px;
+    text-align: center;
+}
+.Ttable-content-time-2{
+    width: 5px;
+    height: 38px;
+    border: thin solid #cbcbcb;
+    box-shadow: 0px 0px 0px 1px #96c7d8;
+    background: linear-gradient(#fff 30%, #96c7d8 30%);
+    background-size: 100% 15px;
+}
+.Ttable-content-time-3{
+    width: 291px;
+    height: 38px;
+    border-right: thin solid #cbcbcb;
+    color: #0a9dff;
+}
+.Ttable-content-time-new3{
+    width: 291px;
+    height: 38px;
+    border-right: thin solid #cbcbcb;
+    color: #028d5e;
+}
+#Ttable-content-time-3-icon{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.Ttable-content-time-4{
+    width: 65px;
+    height: 38px;
+    border-right: thin solid #cbcbcb;
+}
+.Ttable-content-time-5{
+    width: 70px;
+    height: 38px;
+    border-right: thin solid #cbcbcb;
+    text-align: center;
+    line-height: 38px;
+}
+.Ttable-content-time-6{
+    width: 80px;
+    height: 38px;
+    border-right: thin solid #cbcbcb;
+    text-align: center;
+}
+.Ttable-content-time-7{
+    width: 60px;
+    height: 38px;
+    text-align: center;
+    line-height: 38px;
+}
+.Ttable-word1{
+    color: white;
+    font:bold 14px "黑体";
+}
+.Ttable-word2{
+    color:#cf0000;
+    font:bold 14px "黑体";
+    padding: 50% 0;
+    margin-left: 8px;
+    margin-right: 20px;
+    line-height: 12px;
+}
+.Ttable-word3{
+    color: #444444;
+    font-family: "宋体";
+    font-size: 12px;
+    margin-left: 8px;
+}
+.Ttable-word4{
+    color: #444444;
+    font:bold 14px "宋体";
+    padding: 50% 0;
+    margin-left: 3px;
+}
+.Ttable-word5{
+    color:#cf0000;
+    font:bold 14px "黑体";
+    margin-left: 3px;
+    margin-right: 15px;
+}
+.Ttable-word6{
+    color:#002cbd;
+    font-size: 15px;
+}
+.Ttable-word7{
+    color:#607a90;
+    font-size: 7px;
+    margin-bottom: 10px;
+}
+.Ttable-word8{
+    color: black;
+    font:bold 20px "黑体";
+    margin-bottom: 10px;
+}
+.Ttable-word9{
+    font-size: 8px;
+    margin-bottom: 5px;
+}
+.Ttable-word10{
+    font-size:10px;
+    margin-left: 2px;
+    color: #002cbd;
+}
+.Ttable-word11{
+    font-size: 10px;
+    color: black;
+}
+.Ttable-word12{
+    font-size: 15px;
+    color: #0069a3;
+}
+.Ttable-word13{
+    font:bold 15px "宋体";
+}
+.Ttable-word14{
+    font-size: 15px;
+    color: #0069a3;
+    text-decoration: none;
+}
+#Ttable-title-top-right{
+    height: 25px;
+    width: 50px;
+    margin-left: 5px;
+    color: orange;
+}
+.Ttable-title-sub-a{
+    margin-left: 570px;
 }
