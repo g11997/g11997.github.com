@@ -1,0 +1,69 @@
+#container{
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 900px;
+    height:600px;
+    border:1px solid gray;
+}
+#result{
+    margin-top: 10px;
+    height: 600px;
+}
+.ui-top{
+    height: 50px;
+    background-color: #000;
+}
+#btn1{
+    height: 50px;
+    color: #fff;
+    line-height: 50px;
+}
+#btn2{
+    height: 50px;
+    color: #fff;
+    line-height: 50px;
+}
+#btn3{
+    height: 50px;
+    color: #fff;
+    line-height: 50px;
+}
+.ui-img{
+    height: 100px;
+}
+#ui-img-1{
+    height: 100px;
+    width: 280px;
+}
+.ui-info-left-title{
+    height: 30px;
+    margin-left: -15px;
+    line-height: 30px;
+}
+.glyphicon-star{
+    color: orange;
+}
+#star1{
+    margin-left: -15px;
+}
+.ui-info-left-sub{
+    height: 20px;
+    line-height: 20px;
+    margin-left: -15px;
+}
+.ui-info-left-sub-2{
+    font-size: 6px;
+}
+.ui-info-left-sub-1{
+     font-size: 6px;
+}
+.ui-info-right-sub{
+    width: 80px;
+    height: 25px;
+    background-color: orange;
+    color: #fff;
+    text-align: center;
+    line-height: 25px;
+    margin-top: 45px;
+    border-radius: 5px;
+}
